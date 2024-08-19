@@ -37,7 +37,7 @@ The following contents are in no particular order
 - `sudo pacman -S ttf-fira-code`
 
 ## terminal alacritty configuration
-(config url)[https://alacritty.org/config-alacritty.html]
+[config url](https://alacritty.org/config-alacritty.html)
 ```toml
 [shell]
 program = "/usr/bin/fish"
@@ -120,3 +120,6 @@ foreground = "#f1fa8c"
 background = "#282a36"
 ```
 
+
+## vscodium setting
+vscodium use the same setting logic as vscode,[vscode setting url](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson)
