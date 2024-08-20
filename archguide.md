@@ -2,8 +2,8 @@
 Without arch wiki, just this file.
 
 ## archlinux system install
-- disk configuration: 1G-EFI, 400G-/home, test-/root(/)
-- extra package: neovim, fish
+- **disk configuration**: 1G-EFI, 400G-/home, test-/root(/)
+- **extra package**: neovim, fish
 
 ## user using sudo without passwd
 - add `Defaults:(user_name) !authenticate` in `/etc/sudoers`, must use `sudo` open file
@@ -30,11 +30,11 @@ Default linux can't display Chinese, need install extra package including Chines
 The following contents are in no particular order
 
 ## chromium extensions
-- vimium: Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.
-- Gnome Shell integration: For Arch Linux, Debian, Fedora, Gentoo and Ubuntu you can install package named "gnome-browser-connector".
+- **vimium**: Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.
+- **Gnome Shell integration**: For Arch Linux, Debian, Fedora, Gentoo and Ubuntu you can install package named "gnome-browser-connector".
 
 ## fonts in terminal
-- `sudo pacman -S ttf-fira-code`
+`sudo pacman -S ttf-fira-code`
 
 ## terminal alacritty configuration
 [config url](https://alacritty.org/config-alacritty.html)
@@ -123,3 +123,50 @@ background = "#282a36"
 
 ## vscodium setting
 vscodium use the same setting logic as vscode,[vscode setting url](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson)
+
+```json
+{
+    
+    "editor.fontSize": 14.5,
+    "editor.fontFamily": "Fira Code",
+    "workbench.colorTheme": "Dracula Theme",
+    "background.enabled": true,
+    "background.fullscreen": {
+        "images": ["https://yys.res.netease.com/pc/zt/20230421141009/data/picture/20200609/3/2/1920x1080.jpg"], // urls of your images
+        "opacity": 0.95, // 0.85 ~ 0.95 recommended
+        "size": "cover", 
+        "position": "center",
+    }
+    // variable background need extension background
+}
+
+```
+
+### extensions(something like python isn't be needed)
+- **Dracula Theme Official**: color theme
+- **Markdown Preview Github Styling**: preview md file in vscode
+- **background**: display background in vscode
+
+## Gnome extension(OS beauty)
+Using extensions application and install `gnome-browser-connector`
+
+extensions list:
+- **AppIndicator and KStatusNotifierItem Support**: Adds AppIndicator, KStatusNotifierItem and legacy Tray icons support to the Shell
+- **Dash to Dock**: 在外观栏中将透明度调整为50%
+- **Coverflow Alt-Tab**
+- **Blur my Shell **
+- **Search Light**: This is a Gnome Shell extension that takes the apps search widget out of Overview
+- **Hide the dock in overview**: hide the overview list when *cmd*
+
+
+
+## bluetooth service
+When I want to connect my bluetooth, I can't turn on the switch that it will turn back to off if I turn on it.
+
+<video src="https://itsfoss.com/content/media/2023/11/cant-enable-bluetooth-arch-linux.webm" poster="https://img.spacergif.org/v1/1920x1080/0a/spacer.png" width="1920" height="1080" loop="" autoplay="" muted="" playsinline="" preload="metadata" style="background: transparent url('https://itsfoss.com/content/media/2023/11/cant-enable-bluetooth-arch-linux_thumb.jpg') 50% 50% / cover no-repeat;"></video>
+
+>tips: markdown supports HTML language, in many place can find the same display using HTML as markdown. And some special things such as video which only can writed by HTML
+
+
+## Tools 
+- **[catppuccin](https://github.com/catppuccin)**: contains all themes which I want, good tools! 
