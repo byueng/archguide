@@ -125,21 +125,20 @@ background = "#282a36"
 vscodium use the same setting logic as vscode,[vscode setting url](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson)
 
 ```json
-{
-    
+{   
     "editor.fontSize": 14.5,
     "editor.fontFamily": "Fira Code",
-    "workbench.colorTheme": "Dracula Theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "background.enabled": true,
     "background.fullscreen": {
         "images": ["https://yys.res.netease.com/pc/zt/20230421141009/data/picture/20200609/3/2/1920x1080.jpg"], // urls of your images
-        "opacity": 0.95, // 0.85 ~ 0.95 recommended
-        "size": "cover", 
-        "position": "center",
-    }
-    // variable background need extension background
+        "opacity": 0.86, // 0.85 ~ 0.95 recommended
+        "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+        "position": "center", // alias to `background-position`, default `center`
+    },
+    "window.newWindowDimensions": "offset",
+    "explorer.confirmDragAndDrop": false,
 }
-
 ```
 
 ### extensions(something like python isn't be needed)

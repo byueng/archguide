@@ -28,6 +28,12 @@ function create_venv
             echo "alias $ALIAS_NAME='source $ACTIVATE_PATH'" >> $config_file
             echo "Alias '$ALIAS_NAME' created to start the virtual environment."
             source $config_file
+	    $ALIAS_NAME
+	    echo "enter $ALIAS_NAME and set pip config..."
+            pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+            python -m pip install --upgrade pip
+	    echo "config completed"
+
         else
             echo "Error: Activation script not found!"
         end
@@ -79,7 +85,6 @@ function rm_venv
     end
 end
 
-alias web='source /home/jwm/project/connection/web/bin/activate.fish'
 
 ```
  
