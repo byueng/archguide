@@ -32,6 +32,8 @@ The following contents are in no particular order
 ## chromium extensions
 - **vimium**: Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.
 - **Gnome Shell integration**: For Arch Linux, Debian, Fedora, Gentoo and Ubuntu you can install package named "gnome-browser-connector".
+- **沙拉查词**: withous chineses :)
+
 
 ## fonts in terminal
 `sudo pacman -S ttf-fira-code`
