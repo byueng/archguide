@@ -53,6 +53,14 @@ startup_mode = "Windowed"
 normal = { family = "Fira Code", style = "normal"}
 size = 14.5
 
+
+[keyboard]
+// low or large all ok to *key*
+bindings = [
+    {key = "C", mods = "Control", action = "Copy"},
+    {key = "V", mods = "Control", action = "Paste"}
+]
+
 [colors.primary]
 
 background = "#282a36"
@@ -120,11 +128,14 @@ background = "#f1fa8c"
 
 foreground = "#f1fa8c"
 background = "#282a36"
+
+
 ```
 
 
 ## vscodium setting
 vscodium use the same setting logic as vscode,[vscode setting url](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson)
+> vscodium `setting.json` locates in `~/.config/vscodium/user/settings.json`
 
 ```json
 {   
