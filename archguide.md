@@ -175,9 +175,8 @@ extensions list:
 ## bluetooth service
 When I want to connect my bluetooth, I can't turn on the switch that it will turn back to off if I turn on it.
 
-<video src="https://itsfoss.com/content/media/2023/11/cant-enable-bluetooth-arch-linux.webm" poster="https://img.spacergif.org/v1/1920x1080/0a/spacer.png" width="1920" height="1080" loop="" autoplay="" muted="" playsinline="" preload="metadata" style="background: transparent url('https://itsfoss.com/content/media/2023/11/cant-enable-bluetooth-arch-linux_thumb.jpg') 50% 50% / cover no-repeat;"></video>
-
 >tips: markdown supports HTML language, in many place can find the same display using HTML as markdown. And some special things such as video which only can writed by HTML
+
 
 
 ## Tools 
