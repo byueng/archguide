@@ -181,3 +181,4 @@ When I want to connect my bluetooth, I can't turn on the switch that it will tur
 
 ## Tools 
 - **[catppuccin](https://github.com/catppuccin)**: contains all themes which I want, good tools! 
+- **zathura**: pdf view tool by vim style
